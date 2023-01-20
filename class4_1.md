@@ -131,9 +131,13 @@ We need a SonarQube scanner on the Jenkins server (CI server) to analyze code an
   
 1. Import project from Github onto sonarqube   
     Dashboard --> account --> My Organizations     
-    Chose GitHub → select repository → import project    
-  
+
 ![i11](https://user-images.githubusercontent.com/100523955/213722552-de6aed53-0b63-4ced-ab05-0d9cc4c96768.png)
+  
+    Chose GitHub → select repository → import project     
+  
+  
+![i12](https://user-images.githubusercontent.com/100523955/213727994-9b76fc41-72a0-46a6-b0fe-0939bf35c02d.png)
 
 1. Create sonarqube.properites file     
 
@@ -184,7 +188,13 @@ for this, we should do below steps
 ### create a quality gate   
 on Sonarclould.io     
 go to project --> administration --> quality gates --> "the Quality Gate definition"   
+  
+![i14](https://user-images.githubusercontent.com/100523955/213728368-b5ca410c-282e-4d2a-8c10-d3f72f5c9232.png)
+  
 create a quality gate   
+  
+![i15](https://user-images.githubusercontent.com/100523955/213728424-050feb97-3632-408e-8582-553dc2b5d8b1.png)
+  
 here chosen conditions as   
 Code Smells are greater then 5    
 Major Issues are greater than 5    
