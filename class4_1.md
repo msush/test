@@ -194,7 +194,7 @@ secret: <leave_it_blank>
 
 ### update jenkins job  
 now its time to update the jenkins file with the below code  
-```sh   
+```sh 
           stage("Quality Gate"){  
             steps {  
                 script {
@@ -210,6 +210,6 @@ now its time to update the jenkins file with the below code
             }   
         }   
 
-  ```   
+```   
 
 Now run the job    
