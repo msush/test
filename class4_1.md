@@ -11,7 +11,8 @@ As part of jenkins pipeline job, 1st we are going to pull the code and build it 
 
 1. Create a jenkins job 
 In Jenkins home page 
-new iteam --> item name "Twittertrend_pipeline" --> pipeline
+new iteam --> item name "Twittertrend_pipeline" --> pipeline  
+![i1](https://user-images.githubusercontent.com/100523955/213704518-d21827fb-ebe6-497a-a1df-d3e25268c1e2.PNG)
 Under pipeline 
   Pipeline script from SCM
   SCM --> Git
