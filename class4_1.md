@@ -61,12 +61,15 @@ To create multibranch pipeline
   
   <img width="235" alt="i3_4" src="https://user-images.githubusercontent.com/100523955/213707045-23b71379-4867-4a90-aeec-4db24db448f5.PNG">
     
-  Branch: Git
-  Project Repository: https://github.com/ravdy/twittertrend.git 
-  Credentials: ec2-user
-  Build Configuration : 
-    Mode:  by Jenkinsfile
-    Script Path: Jenkinsfile
+  Branch: Git  
+  Project Repository: https://github.com/ravdy/twittertrend.git    
+  Credentials: ec2-user  
+  
+  ![i2](https://user-images.githubusercontent.com/100523955/213705133-1f150598-ca3b-4a49-acfa-25eb05330f27.png)
+  
+    Build Configuration :     
+    Mode:  by Jenkinsfile               
+    Script Path: Jenkinsfile               
 
   # Enable webhook
 
