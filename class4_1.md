@@ -138,7 +138,7 @@ We need a SonarQube scanner on the Jenkins server (CI server) to analyze code an
 1. Create sonarqube.properites file     
 
    Add the following code in sonar.properties file:   
-   ```sh   
+   ```sh    
      sonar.verbose=true     
      sonar.projectKey=ravdy_ttrend              
      # go to project —> at the bottom left panel select information --> copy project key and organization key   
@@ -148,6 +148,7 @@ We need a SonarQube scanner on the Jenkins server (CI server) to analyze code an
      sonar.sourceEncoding=UTF-8  
      sonar.sources=.            #.means root of src  
      sonar.java.binaries=target/classes  
+  
     ```  
 1. Add sonarqube state in the Jenkinsfile and run the job   
 
