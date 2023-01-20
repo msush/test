@@ -51,11 +51,19 @@ above script is committed as v1-jenkinsfile in RTP-03 repo
 # Let's create multibranch pipeline 
 To create multibranch pipeline 
 1. Create new job
-   new iteam --> item name "Twittertrend_Multibranch_pipeline" --> Choose job style Multibranch pipeline
+   new item --> item name "Twittertrend_Multibranch_pipeline" --> Choose job style Multibranch pipeline  
+   
+   <img width="429" alt="i1_4" src="https://user-images.githubusercontent.com/100523955/213706321-d20cefc3-a77f-4d77-ab65-d7758e32935f.PNG">
 
-  Note: make sure you have more then 1 branch in the GitHub
-
-  Branch: Git
+  Note: make sure you have more then 1 branch in the GitHub  
+  
+  <img width="471" alt="i2_4" src="https://user-images.githubusercontent.com/100523955/213706701-2989a32e-0241-4110-9036-5677a66dbf4b.PNG">
+  
+  <img width="235" alt="i3_4" src="https://user-images.githubusercontent.com/100523955/213707045-23b71379-4867-4a90-aeec-4db24db448f5.PNG">
+  
+  <img width="235" alt="i3_4" src="https://user-images.githubusercontent.com/100523955/213707045-23b71379-4867-4a90-aeec-4db24db448f5.PNG">
+  
+  Branch: Git
   Project Repository: https://github.com/ravdy/twittertrend.git 
   Credentials: ec2-user
   Build Configuration : 
