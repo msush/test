@@ -82,12 +82,12 @@ To create multibranch pipeline
   2. Go to multibranch pipeline job 
      job --> configure --> Scan Multibranch Pipeline Triggers --> Scan Multibranch Pipeline Triggers
      
-     ![i5](https://user-images.githubusercontent.com/100523955/213716091-46deac59-4caf-44a5-adb7-4e040daf4e53.png)
+   ![i5](https://user-images.githubusercontent.com/100523955/213716091-46deac59-4caf-44a5-adb7-4e040daf4e53.png)
 
   3. Add webhook to GitHub repository
      Github repo --> settings --> webhooks --> Add webhook    
      
-     ![i6](https://user-images.githubusercontent.com/100523955/213716214-3ce54b96-77b7-4141-80e1-5490e49027df.png)
+   ![i6](https://user-images.githubusercontent.com/100523955/213716214-3ce54b96-77b7-4141-80e1-5490e49027df.png)
      
      Payload URL: JENKINS_URL/multibranch-webhook-trigger/invoke?token=[Trigger token] 
      Example: http://13.233.42.142:4000/multibranch-webhook-trigger/invoke?token=rtp-03
@@ -95,7 +95,7 @@ To create multibranch pipeline
      
      Upon successfully configuring webhook it should look like below:
      
-     ![i7](https://user-images.githubusercontent.com/100523955/213716440-93026a92-b50f-4029-9aa0-d194c5fd05e6.png)
+   ![i7](https://user-images.githubusercontent.com/100523955/213716440-93026a92-b50f-4029-9aa0-d194c5fd05e6.png)
 
 
 # Integrate sonarqube with Jenkins
