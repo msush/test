@@ -114,7 +114,7 @@ We need a SonarQube scanner on the Jenkins server (CI server) to analyze code an
 
 ![i9](https://user-images.githubusercontent.com/100523955/213719462-ea51acc4-2703-46be-9201-c16d8bbe216c.png)
 
-1.Configure Sonarqube server   
+3.Configure Sonarqube server   
    Manage Jenkins → Configure System → SonarQube Server           
    Add sonarqube server       
    Server: https://sonarcloud.io/      
@@ -123,24 +123,17 @@ We need a SonarQube scanner on the Jenkins server (CI server) to analyze code an
 ![i9](https://user-images.githubusercontent.com/100523955/213720468-1585d0d2-0b89-4795-a6a8-c381eb99efbf.png)
 
 
-
-
-
-1. Configure Sonarqube server   
-    Manage Jenkins → Configure System → SonarQube Server        
-    Add sonarqube server       
-    Server: https://sonarcloud.io/      
-    Token: <Select token which added in the above step>    
+1. Add sonarqube scanner to jenkins    
+    Jenkins Dashboard --> Manage Jenkins --> Global Tool Configuration     
   
-![i9](https://user-images.githubusercontent.com/100523955/213720468-1585d0d2-0b89-4795-a6a8-c381eb99efbf.png)
-
-
-1. Add sonarqube scanner to jenkins  
-    Jenkins Dashboard --> Manage Jenkins --> Global Tool Configuration   
-
+![i13](https://user-images.githubusercontent.com/100523955/213722228-60d574e0-df95-4b60-adf8-455325a3b2ca.png)      
+  
+  
 1. Import project from Github onto sonarqube   
     Dashboard --> account --> My Organizations     
     Chose GitHub → select repository → import project    
+  
+![i11](https://user-images.githubusercontent.com/100523955/213722552-de6aed53-0b63-4ced-ab05-0d9cc4c96768.png)
 
 1. Create sonarqube.properites file     
 
