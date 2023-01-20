@@ -89,9 +89,9 @@ To create multibranch pipeline
      
    ![i6](https://user-images.githubusercontent.com/100523955/213716214-3ce54b96-77b7-4141-80e1-5490e49027df.png)
      
-     Payload URL: JENKINS_URL/multibranch-webhook-trigger/invoke?token=[Trigger token] 
-     Example: http://13.233.42.142:4000/multibranch-webhook-trigger/invoke?token=rtp-03
-     Content type: application/json     
+     Payload URL: JENKINS_URL/multibranch-webhook-trigger/invoke?token=[Trigger token]      
+     Example: http://13.233.42.142:4000/multibranch-webhook-trigger/invoke?token=rtp-03     
+     Content type: application/json         
      
      Upon successfully configuring webhook it should look like below:
      
