@@ -60,9 +60,7 @@ To create multibranch pipeline
   <img width="471" alt="i2_4" src="https://user-images.githubusercontent.com/100523955/213706701-2989a32e-0241-4110-9036-5677a66dbf4b.PNG">
   
   <img width="235" alt="i3_4" src="https://user-images.githubusercontent.com/100523955/213707045-23b71379-4867-4a90-aeec-4db24db448f5.PNG">
-  
-  <img width="235" alt="i3_4" src="https://user-images.githubusercontent.com/100523955/213707045-23b71379-4867-4a90-aeec-4db24db448f5.PNG">
-  
+    
   Branch: Git
   Project Repository: https://github.com/ravdy/twittertrend.git 
   Credentials: ec2-user
