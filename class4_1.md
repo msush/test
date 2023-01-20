@@ -195,7 +195,7 @@ create a quality gate
   
 ![i15](https://user-images.githubusercontent.com/100523955/213728424-050feb97-3632-408e-8582-553dc2b5d8b1.png)
   
-here chosen conditions as   
+The following conditions can be choosen in the quality gate  
 Code Smells are greater then 5    
 Major Issues are greater than 5    
 
@@ -203,7 +203,7 @@ The quality gate fails the analysis.
 
 
 ### create a webhook  
-same we can send it back to jenkins we should create a webhook  
+The quality gate report can be sent back to jenkins.For this a webhook must be created  
 got to project --> administration --> webhooks --> create    
 Name: jenkins     
 URL*: http://35.154.179.94:4000/sonarqube-webhook/  
