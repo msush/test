@@ -65,7 +65,7 @@ To create multibranch pipeline
   Project Repository: https://github.com/ravdy/twittertrend.git    
   Credentials: ec2-user  
   
-  ![i2](https://user-images.githubusercontent.com/100523955/213705133-1f150598-ca3b-4a49-acfa-25eb05330f27.png)
+  ![i2_1](https://user-images.githubusercontent.com/100523955/213714973-0e7958d1-1f74-42e7-b003-a72ad777908e.png)
   
     Build Configuration :     
     Mode:  by Jenkinsfile               
