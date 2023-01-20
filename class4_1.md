@@ -18,11 +18,13 @@ Under pipeline
   SCM --> Git  
   Repository URL --> https://github.com/ravdy/twittertrend.git  
   Credentials --> chose credentials added in the above step  
+  
   ![i2](https://user-images.githubusercontent.com/100523955/213705133-1f150598-ca3b-4a49-acfa-25eb05330f27.png)
   Branches to build --> main or master   
   Script Path --> Jenkinsfile   
+  
   ![i3](https://user-images.githubusercontent.com/100523955/213705411-c470897a-d9b0-4ea5-8363-fb926dbe7201.png)
-  this Jekins file should have only build step as mentioned below 
+This Jekins file should have only build step as mentioned below :
 
 ```sh 
   pipeline {
