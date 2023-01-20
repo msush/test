@@ -103,16 +103,25 @@ We need a SonarQube scanner on the Jenkins server (CI server) to analyze code an
 
 1. Create an account at https://sonarcloud.io  
     Goto my account  → Security --> Generate token   
+    
+![i8](https://user-images.githubusercontent.com/100523955/213718918-7674a65e-2f10-45c2-966a-dff81bcb0793.png)
+
 1. Create credentials for token in the Jenkins  
    	Manage Jenkins → Manage Credentials → Global Credentials →  
     Kind: secret text   
     Secret: SonarQube token   
 1. Download “sonarqube scanner for Jenkins” plugin on jenkins  
-1. Configure Sonarqube server   
-    Manage Jenkins → Configure System → SonarQube Server   
-    Add sonarqube server   
-    Server: https://sonarcloud.io/  
-    Token: <Select tolek which added in the above step>  
+
+![i9](https://user-images.githubusercontent.com/100523955/213719462-ea51acc4-2703-46be-9201-c16d8bbe216c.png)
+
+3. Configure Sonarqube server   
+    Manage Jenkins → Configure System → SonarQube Server        
+    Add sonarqube server       
+    Server: https://sonarcloud.io/      
+    Token: <Select token which added in the above step>    
+  
+![i9](https://user-images.githubusercontent.com/100523955/213720468-1585d0d2-0b89-4795-a6a8-c381eb99efbf.png)
+
 
 1. Add sonarqube scanner to jenkins  
     Jenkins Dashboard --> Manage Jenkins --> Global Tool Configuration   
